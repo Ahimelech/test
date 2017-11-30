@@ -1,0 +1,54 @@
+body,h1,h2,h3,h4,h5,h6,p,dl,dd{
+	padding: 0;
+	margin: 0;
+	font-size: 12px;
+	font-weight: normal;
+	font-family: "宋体";
+	line-height: 1;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+ul,ol{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+b,strong{
+	font-weight: normal;
+	padding: 0;
+	margin: 0;
+}
+i,em{
+	font-style: normal;
+	padding: 0;
+	margin: 0;
+}
+mark{
+	background: none;
+	color: inherit;
+}
+img{
+	vertical-align: top;
+	border:0;
+}
+.clearfix{
+	zoom:1;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+	overflow: hidden;
+}
+
+input,fieldset,textarea,legend,select,option,table,td,tr,th{
+	padding: 0;
+	margin: 0;
+	border:0;
+	background: none;
+	vertical-align: center;
+	outline: none;
+}
